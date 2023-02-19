@@ -26,6 +26,15 @@ const client = z.object({
 const processEnv = {
   DATABASE_URL: process.env.DATABASE_URL,
   NODE_ENV: process.env.NODE_ENV,
+  GITHUB_CLIENT_ID: process.env.GITHUB_ID,
+  GITHUB_CLIENT_SECRET: process.env.GITHUB_SECRET,
+  GOOGLE_CLIENT_ID: process.env.GOOGLE_ID,
+  GOOGLE_CLIENT_SECRET: process.env.GOOGLE_SECRET,
+  EMAIL_SERVER_HOST: process.env.EMAIL_SERVER_HOST,
+  EMAIL_SERVER_PORT: process.env.EMAIL_SERVER_PORT,
+  EMAIL_SERVER_USER: process.env.EMAIL_SERVER_USER,
+  EMAIL_SERVER_PASSWORD: process.env.EMAIL_SERVER_PASSWORD,
+  EMAIL_FROM: process.env.EMAIL_FROM,
   // NEXT_PUBLIC_CLIENTVAR: process.env.NEXT_PUBLIC_CLIENTVAR,
 };
 
